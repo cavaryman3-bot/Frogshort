@@ -12,7 +12,7 @@ Primary reporting: [US Open match report](https://www.usopen.org/amp/en_US/news/
 
 ## English VO draft (approximately 40 seconds at a fast natural read)
 
-> Alex Michelsen was serving for the biggest win of his career.
+> Alex Michelsen was serving for his first Grand Slam semifinal.
 >
 > After the final point, the man who beat him came running toward him.
 >
@@ -30,9 +30,9 @@ Primary reporting: [US Open match report](https://www.usopen.org/amp/en_US/news/
 >
 > Tiafoe knew that pain. He had lost big matches here himself.
 >
-> Alex later said Frances was one of the only people who could have made him cry.
+> Alex later said, "I don't think anyone else could have made me cry in that moment."
 
-The first two lines create the question; the embrace is withheld until the turn. The final line paraphrases Michelsen rather than pretending there is audible speech during the hug. The claim 'biggest win of his career' is an editorial description of a potential first Grand Slam semifinal, not Michelsen's own words; revise if a stricter literal script is wanted.
+The first two lines create the question; the embrace is withheld until the turn. The final line is Michelsen's short post-match quote reported by the US Open; it is VO narration, not speech audible in the footage of the hug.
 
 ## Picture sequence to verify against RAW
 
