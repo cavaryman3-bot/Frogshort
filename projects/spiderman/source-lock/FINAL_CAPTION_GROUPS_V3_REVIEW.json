@@ -1,0 +1,737 @@
+{
+  "schema_version": "3.0-review",
+  "project": "FROG Wholesome Shorts — Jonesboro Spider-Man",
+  "timing_authority": "FINAL_WORD_ALIGNMENT_V3_REVIEW.json",
+  "word_alignment_sha256": "0e6db42b1d8124b2ae59b1e4fa332f7b21a23b03f7db5f223ff890f8ddc6abcc",
+  "final_speech_master_sha256": "c9022163144ee8734943f7c8f1f0cd1846db3c44954e30018cb7cb971779a5d2",
+  "final_speech_master_duration_seconds": 44.389667,
+  "construction_rule": "Review timing from V3 voice edit and silence-anchored phrase interpolation; verify by listening before final use.",
+  "style_rules": {
+    "FROG_PRIMARY": "Montserrat approved FROG narrator style; exact words; centered fixed anchor.",
+    "DOCUMENTARY_LOWER_THIRD": "Authentic interview speech; smaller clean lower-third; exact words; restrained animation."
+  },
+  "speaker_label": {
+    "segment_id": "SEG_002_CHRISTOPHER_INTERVIEW",
+    "display": "CHRISTOPHER HELLENTHAL",
+    "role": "INTERVIEW AUDIO / ON-CAMERA",
+    "start": 32.2,
+    "end": 35.228
+  },
+  "no_caption_ranges": [
+    {
+      "start": 44.4,
+      "end": 45.5,
+      "reason": "TRAILING_AFTERGLOW"
+    }
+  ],
+  "caption_groups": [
+    {
+      "caption_id": "CAP_001",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 1,
+      "word_index_end": 3,
+      "start": 0.14,
+      "end": 0.96,
+      "duration": 0.82,
+      "text": "A TRAFFIC CAMERA",
+      "source_words": [
+        "a",
+        "traffic",
+        "camera"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_002",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 4,
+      "word_index_end": 6,
+      "start": 0.96,
+      "end": 2.2,
+      "duration": 1.24,
+      "text": "CAUGHT SPIDER-MAN",
+      "source_words": [
+        "caught",
+        "spider",
+        "man"
+      ],
+      "highlights": [
+        {
+          "text": "SPIDER-MAN",
+          "color": "#FFD84A"
+        }
+      ],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_003",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 7,
+      "word_index_end": 10,
+      "start": 2.59,
+      "end": 3.69,
+      "duration": 1.1,
+      "text": "JUMPING FROM A JEEP",
+      "source_words": [
+        "jumping",
+        "from",
+        "a",
+        "jeep"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_004",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 11,
+      "word_index_end": 14,
+      "start": 3.69,
+      "end": 4.86,
+      "duration": 1.17,
+      "text": "AT A BUSY INTERSECTION",
+      "source_words": [
+        "at",
+        "a",
+        "busy",
+        "intersection"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_005",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 15,
+      "word_index_end": 17,
+      "start": 5.35,
+      "end": 6.22,
+      "duration": 0.87,
+      "text": "BUT THIS WASN'T",
+      "source_words": [
+        "but",
+        "this",
+        "wasn't"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_006",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 18,
+      "word_index_end": 19,
+      "start": 6.22,
+      "end": 7.02,
+      "duration": 0.8,
+      "text": "A PERFORMANCE",
+      "source_words": [
+        "a",
+        "performance"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_007",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 20,
+      "word_index_end": 23,
+      "start": 7.71,
+      "end": 8.43,
+      "duration": 0.72,
+      "text": "HE'D SEEN A MAN",
+      "source_words": [
+        "he'd",
+        "seen",
+        "a",
+        "man"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_008",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 24,
+      "word_index_end": 26,
+      "start": 8.43,
+      "end": 9.36,
+      "duration": 0.93,
+      "text": "IN A WHEELCHAIR",
+      "source_words": [
+        "in",
+        "a",
+        "wheelchair"
+      ],
+      "highlights": [
+        {
+          "text": "WHEELCHAIR",
+          "color": "#FFD84A"
+        }
+      ],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_009",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 27,
+      "word_index_end": 28,
+      "start": 9.56,
+      "end": 10.67,
+      "duration": 1.11,
+      "text": "STRUGGLING ACROSS",
+      "source_words": [
+        "struggling",
+        "across"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_010",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 29,
+      "word_index_end": 32,
+      "start": 10.67,
+      "end": 12.63,
+      "duration": 1.96,
+      "text": "SIX LANES OF TRAFFIC",
+      "source_words": [
+        "six",
+        "lanes",
+        "of",
+        "traffic"
+      ],
+      "highlights": [
+        {
+          "text": "SIX LANES",
+          "color": "#FFD84A"
+        }
+      ],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_011",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 33,
+      "word_index_end": 36,
+      "start": 13.22,
+      "end": 14.14,
+      "duration": 0.92,
+      "text": "SO HE PULLED OVER",
+      "source_words": [
+        "so",
+        "he",
+        "pulled",
+        "over"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_012",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 37,
+      "word_index_end": 40,
+      "start": 14.56,
+      "end": 15.66,
+      "duration": 1.1,
+      "text": "AND RAN TOWARD HIM",
+      "source_words": [
+        "and",
+        "ran",
+        "toward",
+        "him"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_013",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 41,
+      "word_index_end": 44,
+      "start": 16.19,
+      "end": 17.36,
+      "duration": 1.17,
+      "text": "HE REACHED THE CHAIR",
+      "source_words": [
+        "he",
+        "reached",
+        "the",
+        "chair"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_014",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 45,
+      "word_index_end": 46,
+      "start": 17.62,
+      "end": 18.47,
+      "duration": 0.85,
+      "text": "STARTED PUSHING",
+      "source_words": [
+        "started",
+        "pushing"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_015",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 47,
+      "word_index_end": 50,
+      "start": 18.99,
+      "end": 19.7,
+      "duration": 0.71,
+      "text": "AND GOT THE MAN",
+      "source_words": [
+        "and",
+        "got",
+        "the",
+        "man"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_016",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 51,
+      "word_index_end": 52,
+      "start": 19.7,
+      "end": 20.8,
+      "duration": 1.1,
+      "text": "SAFELY ACROSS",
+      "source_words": [
+        "safely",
+        "across"
+      ],
+      "highlights": [
+        {
+          "text": "SAFELY ACROSS",
+          "color": "#43F1B5"
+        }
+      ],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_017",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 53,
+      "word_index_end": 56,
+      "start": 20.8,
+      "end": 22.1,
+      "duration": 1.3,
+      "text": "BEFORE THE LIGHT CHANGED",
+      "source_words": [
+        "before",
+        "the",
+        "light",
+        "changed"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_018",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 57,
+      "word_index_end": 59,
+      "start": 22.7,
+      "end": 23.71,
+      "duration": 1.01,
+      "text": "THEN PEOPLE ASKED",
+      "source_words": [
+        "then",
+        "people",
+        "asked"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_019",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 60,
+      "word_index_end": 62,
+      "start": 23.95,
+      "end": 25.3543,
+      "duration": 1.4043,
+      "text": "WHO WAS UNDER",
+      "source_words": [
+        "who",
+        "was",
+        "under"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_020",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 63,
+      "word_index_end": 64,
+      "start": 25.441,
+      "end": 26.1131,
+      "duration": 0.6721,
+      "text": "THE MASK?",
+      "source_words": [
+        "the",
+        "mask"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_021",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 65,
+      "word_index_end": 67,
+      "start": 27.233,
+      "end": 27.8432,
+      "duration": 0.6102,
+      "text": "HIS NAME WAS",
+      "source_words": [
+        "his",
+        "name",
+        "was"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_022",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 68,
+      "word_index_end": 69,
+      "start": 27.8432,
+      "end": 29.1199,
+      "duration": 1.2767,
+      "text": "CHRISTOPHER HELLENTHAL",
+      "source_words": [
+        "christopher",
+        "hellenthal"
+      ],
+      "highlights": [
+        {
+          "text": "CHRISTOPHER HELLENTHAL",
+          "color": "#4DE7FF"
+        }
+      ],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_023",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 70,
+      "word_index_end": 73,
+      "start": 29.5841,
+      "end": 30.4118,
+      "duration": 0.8277,
+      "text": "A TWENTY-YEAR-OLD",
+      "source_words": [
+        "a",
+        "twenty",
+        "year",
+        "old"
+      ],
+      "highlights": [
+        {
+          "text": "TWENTY-YEAR-OLD",
+          "color": "#4DE7FF"
+        }
+      ],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_024",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 74,
+      "word_index_end": 76,
+      "start": 30.6696,
+      "end": 31.231,
+      "duration": 0.5614,
+      "text": "FRESH FROM A",
+      "source_words": [
+        "fresh",
+        "from",
+        "a"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_025",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 77,
+      "word_index_end": 78,
+      "start": 31.231,
+      "end": 32.2,
+      "duration": 0.969,
+      "text": "SUPERHERO EVENT",
+      "source_words": [
+        "superhero",
+        "event"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_026",
+      "speaker": "CHRISTOPHER_INTERVIEW",
+      "style": "DOCUMENTARY_LOWER_THIRD",
+      "word_index_start": 79,
+      "word_index_end": 81,
+      "start": 32.2,
+      "end": 32.78,
+      "duration": 0.58,
+      "text": "I JUST TOLD",
+      "source_words": [
+        "i",
+        "just",
+        "told"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_027",
+      "speaker": "CHRISTOPHER_INTERVIEW",
+      "style": "DOCUMENTARY_LOWER_THIRD",
+      "word_index_start": 82,
+      "word_index_end": 85,
+      "start": 32.78,
+      "end": 33.79,
+      "duration": 1.01,
+      "text": "THE MAN, I SAID",
+      "source_words": [
+        "the",
+        "man",
+        "i",
+        "said"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_028",
+      "speaker": "CHRISTOPHER_INTERVIEW",
+      "style": "DOCUMENTARY_LOWER_THIRD",
+      "word_index_start": 86,
+      "word_index_end": 87,
+      "start": 33.79,
+      "end": 34.21,
+      "duration": 0.42,
+      "text": "“DON’T WORRY”",
+      "source_words": [
+        "don't",
+        "worry"
+      ],
+      "highlights": [
+        {
+          "text": "DON’T WORRY",
+          "color": "#43F1B5"
+        }
+      ],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_029",
+      "speaker": "CHRISTOPHER_INTERVIEW",
+      "style": "DOCUMENTARY_LOWER_THIRD",
+      "word_index_start": 88,
+      "word_index_end": 90,
+      "start": 34.21,
+      "end": 34.95,
+      "duration": 0.74,
+      "text": "“I GOT YOU.”",
+      "source_words": [
+        "i",
+        "got",
+        "you"
+      ],
+      "highlights": [
+        {
+          "text": "I GOT YOU",
+          "color": "#43F1B5"
+        }
+      ],
+      "hero": true
+    },
+    {
+      "caption_id": "CAP_030",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 91,
+      "word_index_end": 94,
+      "start": 35.228,
+      "end": 36.1432,
+      "duration": 0.9152,
+      "text": "HE ADMITTED HE WORRIED",
+      "source_words": [
+        "he",
+        "admitted",
+        "he",
+        "worried"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_031",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 95,
+      "word_index_end": 97,
+      "start": 36.1432,
+      "end": 36.832,
+      "duration": 0.6888,
+      "text": "PEOPLE MIGHT THINK",
+      "source_words": [
+        "people",
+        "might",
+        "think"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_032",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 98,
+      "word_index_end": 100,
+      "start": 36.832,
+      "end": 37.885,
+      "duration": 1.053,
+      "text": "HE LOOKED RIDICULOUS",
+      "source_words": [
+        "he",
+        "looked",
+        "ridiculous"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_033",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 101,
+      "word_index_end": 104,
+      "start": 38.6185,
+      "end": 39.4857,
+      "duration": 0.8672,
+      "text": "BUT HE HELPED ANYWAY",
+      "source_words": [
+        "but",
+        "he",
+        "helped",
+        "anyway"
+      ],
+      "highlights": [
+        {
+          "text": "HELPED ANYWAY",
+          "color": "#43F1B5"
+        }
+      ],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_034",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 105,
+      "word_index_end": 106,
+      "start": 40.1799,
+      "end": 40.7151,
+      "duration": 0.5352,
+      "text": "THAT DAY",
+      "source_words": [
+        "that",
+        "day"
+      ],
+      "highlights": [],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_035",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 107,
+      "word_index_end": 110,
+      "start": 40.7151,
+      "end": 42.2429,
+      "duration": 1.5278,
+      "text": "THE COSTUME WAS PRETEND",
+      "source_words": [
+        "the",
+        "costume",
+        "was",
+        "pretend"
+      ],
+      "highlights": [
+        {
+          "text": "PRETEND",
+          "color": "#FFD84A"
+        }
+      ],
+      "hero": false
+    },
+    {
+      "caption_id": "CAP_036",
+      "speaker": "NARRATOR",
+      "style": "FROG_PRIMARY",
+      "word_index_start": 111,
+      "word_index_end": 113,
+      "start": 43.0379,
+      "end": 44.3897,
+      "duration": 1.3518,
+      "text": "THE CHOICE WASN'T",
+      "source_words": [
+        "the",
+        "choice",
+        "wasn't"
+      ],
+      "highlights": [
+        {
+          "text": "CHOICE",
+          "color": "#43F1B5"
+        }
+      ],
+      "hero": false
+    }
+  ]
+}

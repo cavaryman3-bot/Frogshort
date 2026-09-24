@@ -1,0 +1,19 @@
+{
+  "name": "frog-simple-v1",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "frog": "node scripts/frog.mjs",
+    "validate": "node scripts/validate.mjs --project spiderman",
+    "preview": "node scripts/render.mjs --project spiderman --preset preview",
+    "render": "node scripts/render.mjs --project spiderman --preset final",
+    "auto-preview": "node scripts/auto-render.mjs --project spiderman --preset preview",
+    "auto-render": "node scripts/auto-render.mjs --project spiderman --preset final",
+    "qc:preview": "node scripts/qc.mjs --file output/spiderman-preview.mp4 --preset preview",
+    "qc": "node scripts/qc.mjs --file output/spiderman-final.mp4 --preset final"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

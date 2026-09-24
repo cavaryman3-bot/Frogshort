@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.0",
+  "id": "spiderman",
+  "title": "FROG Spider-Man Pilot",
+  "fps": 30,
+  "durationSeconds": 45.5,
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "safeWidth": 1080,
+    "safeHeight": 1440,
+    "safeY": 240
+  },
+  "locked": {
+    "sourceRegistry": "source-lock/SOURCE_REGISTRY.json",
+    "editDesign": "source-lock/FRAME_LEVEL_MASTER_EDIT_DESIGN_V3_REVIEW.json",
+    "wordAlignment": "source-lock/FINAL_WORD_ALIGNMENT_V3_REVIEW.json",
+    "captionGroups": "source-lock/FINAL_CAPTION_GROUPS_V3_REVIEW.json"
+  },
+  "assets": {
+    "speech": "assets/FINAL_SPEECH_MASTER_V3_REVIEW.wav",
+    "music": "assets/music.mp3",
+    "sources": {
+      "SRC_01": "assets/01_JPD_original_traffic_cam.mp4",
+      "SRC_03": "assets/03_ABC_Christopher_followup.mp4",
+      "SRC_04": "assets/04_Bonus_Christopher_raw_interview.mp4"
+    }
+  },
+  "captions": {
+    "revealMode": "single-word",
+    "documentarySpeaker": "CHRISTOPHER HELLENTHAL",
+    "fontFamily": "Montserrat ExtraBold",
+    "fontSize": 74,
+    "anchorX": 540,
+    "anchorY": 1120,
+    "documentaryY": 1490,
+    "wordsPerPageMax": 5,
+    "activeColor": "#FFD84A",
+    "textColor": "#FFF8EC",
+    "outlineColor": "#11151B"
+  },
+  "audio": {
+    "musicGain": 0.18,
+    "musicGainDuringInterview": 0.09,
+    "interviewDuckStart": 32.2,
+    "interviewDuckEnd": 35.228,
+    "targetLufs": -14,
+    "truePeakDb": -1
+  },
+  "guards": {
+    "maxDurationSeconds": 59,
+    "identityReveal": {
+      "sourceId": "SRC_03",
+      "notBeforeSeconds": 28.53
+    },
+    "captionLeadToleranceSeconds": 0.001,
+    "syncToleranceFrames": 2,
+    "textFreeStartSeconds": 44.4
+  },
+  "visualOverrides": {
+    "SHOT_001": {
+      "mode": "crop",
+      "focusX": 0.54,
+      "hookFreezeSeconds": 0.55,
+      "arrow": true
+    },
+    "SHOT_002": {
+      "mode": "contain",
+      "focusX": 0.5
+    },
+    "SHOT_003": {
+      "mode": "crop",
+      "focusX": 0.23
+    },
+    "SHOT_004": {
+      "mode": "contain",
+      "focusX": 0.5
+    },
+    "SHOT_005": {
+      "mode": "crop",
+      "focusX": 0.52
+    },
+    "SHOT_006": {
+      "mode": "crop",
+      "focusX": 0.43
+    },
+    "SHOT_007": {
+      "mode": "crop",
+      "focusX": 0.38
+    },
+    "SHOT_008": {
+      "mode": "crop",
+      "focusX": 0.58
+    },
+    "SHOT_009": {
+      "mode": "crop",
+      "focusX": 0.72
+    },
+    "SHOT_010": {
+      "mode": "crop",
+      "focusX": 0.55
+    },
+    "SHOT_011": {
+      "mode": "crop",
+      "focusX": 0.52
+    },
+    "SHOT_012": {
+      "mode": "crop",
+      "focusX": 0.35
+    },
+    "SHOT_013": {
+      "mode": "portrait",
+      "focusX": 0.5,
+      "cropAspect": 0.61
+    },
+    "SHOT_014": {
+      "mode": "portrait",
+      "focusX": 0.5,
+      "cropAspect": 0.61
+    },
+    "SHOT_015": {
+      "mode": "crop",
+      "focusX": 0.38
+    },
+    "SHOT_016": {
+      "mode": "crop",
+      "focusX": 0.48
+    },
+    "SHOT_017": {
+      "mode": "crop",
+      "focusX": 0.63
+    },
+    "SHOT_018": {
+      "mode": "crop",
+      "focusX": 0.55
+    }
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+.venv-whisperx/
+tmp/
+output/
+projects/*/assets/*
+!projects/*/assets/.gitkeep
+*.log
+.env

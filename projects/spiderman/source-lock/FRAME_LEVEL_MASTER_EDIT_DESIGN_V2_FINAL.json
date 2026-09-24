@@ -1,0 +1,702 @@
+{
+  "schema_version": "2.0",
+  "project": "FROG Wholesome Shorts — Jonesboro Spider-Man",
+  "deliverable": "FRAME_LEVEL_MASTER_EDIT_DESIGN",
+  "design_version": "V2_FINAL_EXECUTION",
+  "design_status": "COMPLETE_READY_FOR_EDIT_EXECUTION",
+  "workflow_guard": {
+    "previous_completed_step": "FINAL_CAPTION_GROUPS_V2",
+    "current_step": "FRAME_LEVEL_MASTER_EDIT_DESIGN_V2_FINAL_EXECUTION",
+    "next_step_not_started": "EDIT_EXECUTION",
+    "picture_rendered": false,
+    "audio_modified_after_alignment": false,
+    "source_in_out_locked": true
+  },
+  "creative_authority": {
+    "story_payoff": "REAL HELP / WHEELCHAIR REACHES SAFETY",
+    "human_choice": "He worried the suit might look ridiculous, but helped anyway.",
+    "identity_reveal_rule": "Do not show Christopher’s unmasked face before output 28.53s.",
+    "interview_rule": "Exactly one authentic Christopher bite, 32.20–35.228s.",
+    "ending": "That day, the costume was pretend. The choice wasn’t."
+  },
+  "timing_authority": {
+    "file": "FINAL_SPEECH_MASTER_V2.wav",
+    "sha256": "fa9226f0c449a12656de179336df85d9a40cbf2f991f8ca48bb92a05490e4c24",
+    "duration_seconds": 45.480458,
+    "fps": 30,
+    "word_alignment_file": "FINAL_WORD_ALIGNMENT_V2.json",
+    "word_alignment_sha256": "07f5f97891426d4473c6b2ca92f9c338d1c2178b60f541e4a33e0dbb5ebf2a57",
+    "aligned_word_count": 115,
+    "caption_groups_file": "FINAL_CAPTION_GROUPS_V2.json",
+    "caption_groups_sha256": "507bcf6cbf09020b2a5c2337cae1d68fce58a0e7786e21f56d8025123a6500e8",
+    "caption_group_count": 36,
+    "lock_rule": "Do not trim, stretch, speed-change, move, replace, or regenerate any speech-master segment. Any audio change invalidates V2 alignment/captions/design."
+  },
+  "project_timebase": {
+    "canvas_width": 1080,
+    "canvas_height": 1440,
+    "working_aspect_ratio": "3:4",
+    "delivery_canvas": "1080x1920 allowed with 3:4 safe composition",
+    "fps": 30,
+    "frame_duration_seconds": 0.03333333333333333,
+    "picture_end_seconds": 45.5,
+    "audio_end_seconds": 45.480458,
+    "total_frames": 1365,
+    "frame_range_convention": "output_frame_in inclusive; output_frame_out exclusive",
+    "timecode_format": "HH:MM:SS:FF non-drop at 30fps"
+  },
+  "source_assets_status": {
+    "schema_version": "2.0",
+    "status": "RAW_PRESENT_AND_REGISTERED",
+    "registration_precision": "Primary event anchors verified by direct frame inspection at 0.2s sampling on 15fps JPD master; cut values below are execution values. Micro-trim allowance: ±1 source frame only for visual cut cleanliness; never alter output/audio timing.",
+    "sources": [
+      {
+        "source_id": "SRC_01",
+        "filename": "01_JPD_original_traffic_cam.mp4",
+        "role": "Primary municipal evidence / action chronology",
+        "sha256": "820a3382bdaf551d939466fd2554f65aec17acef1eea3daba41fc4fceb3f9925",
+        "ffprobe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 720,
+              "height": 480,
+              "r_frame_rate": "15/1"
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "44100",
+              "channels": 2,
+              "r_frame_rate": "0/0"
+            }
+          ],
+          "format": {
+            "duration": "46.579229"
+          }
+        },
+        "source_in_out_locked": true
+      },
+      {
+        "source_id": "SRC_02",
+        "filename": "02_JPD_TMX_backup_27s.mp4",
+        "role": "HD redistribution backup only; use only if primary crop is materially unusable",
+        "sha256": "d9a651dbcb9888e1f1a4c58b69cfce1dd40d9e71400d9daf7ab58c480a7bc9bf",
+        "ffprobe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "r_frame_rate": "30000/1001"
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2,
+              "r_frame_rate": "0/0"
+            }
+          ],
+          "format": {
+            "duration": "27.754667"
+          }
+        },
+        "source_in_out_locked": false
+      },
+      {
+        "source_id": "SRC_03",
+        "filename": "03_ABC_Christopher_followup.mp4",
+        "role": "Identity reveal / broadcast interview visual",
+        "sha256": "72ffcdf643ce6508f79168affefbb961d67e41d3cd15a7904f194458dbf03954",
+        "ffprobe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "r_frame_rate": "30000/1001"
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2,
+              "r_frame_rate": "0/0"
+            }
+          ],
+          "format": {
+            "duration": "83.149000"
+          }
+        },
+        "source_in_out_locked": true
+      },
+      {
+        "source_id": "SRC_04",
+        "filename": "04_Bonus_Christopher_raw_interview.mp4",
+        "role": "Authentic Christopher direct soundbite / casual face visual",
+        "sha256": "0b3a4b69602b49d4179a67da54657a8634e341cb5aebec1ea36fc588d4445efb",
+        "ffprobe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 640,
+              "height": 360,
+              "r_frame_rate": "25/1"
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2,
+              "r_frame_rate": "0/0"
+            }
+          ],
+          "format": {
+            "duration": "160.455000"
+          }
+        },
+        "source_in_out_locked": true
+      }
+    ],
+    "event_anchors_SRC_01": {
+      "wheelchair_struggling_visible": [
+        19.5,
+        23.0
+      ],
+      "jeep_door_open_exit_starts": 23.2,
+      "spiderman_clear_of_jeep": 24.9,
+      "run_toward_wheelchair": 25.1,
+      "first_contact_with_chair": 26.73,
+      "push_begins": 27.0,
+      "push_reaches_right_edge": 30.8,
+      "wheelchair_and_helper_clear_frame_right": 31.2,
+      "spiderman_returns_into_frame": 36.8,
+      "reaches_jeep": 38.4,
+      "reenters_jeep": 40.8,
+      "audio_note": "Embedded JPD audio measures approximately -91 dBFS mean/max (effectively digital silence); do not invent traffic-camera dialogue or ambience."
+    },
+    "locked_interview_bite": {
+      "source_id": "SRC_04",
+      "source_in": 56.849,
+      "source_out": 59.877,
+      "timeline_in": 32.2,
+      "timeline_out": 35.228,
+      "quote": "I just told the man, I said, “Don’t worry, I got you.”",
+      "audio_in_master": true
+    }
+  },
+  "edit_decisions": [
+    {
+      "shot_id": "SHOT_001",
+      "beat": "HOOK_EXIT",
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 4.86,
+      "output_frame_in": 0,
+      "output_frame_out_exclusive": 146,
+      "timecode_in": "00:00:00:00",
+      "timecode_out_exclusive": "00:00:04:26",
+      "source_id": "SRC_01",
+      "source_in_seconds": 23.2,
+      "source_out_seconds": 26.8,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Jeep door open → Spider-Man exits → commits toward intersection",
+      "playback_strategy": "freeze + 1.0x + micro-hold",
+      "direction": "3:4 working crop tight on Jeep/Spider-Man so wheelchair is not clearly revealed yet. Use 0.55s opening freeze on first unmistakable Spider-Man frame + subtle glowing red arrow; then normal playback; finish with ~0.71s micro-hold/reframe before reveal. No fake impact SFX.",
+      "caption_ids": [
+        "CAP_001",
+        "CAP_002",
+        "CAP_003",
+        "CAP_004"
+      ],
+      "transition_in": "start",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_002",
+      "beat": "REVERSAL",
+      "output_start_seconds": 4.86,
+      "output_end_seconds": 7.71,
+      "output_frame_in": 146,
+      "output_frame_out_exclusive": 231,
+      "timecode_in": "00:00:04:26",
+      "timecode_out_exclusive": "00:00:07:21",
+      "source_id": "SRC_01",
+      "source_in_seconds": 19.9,
+      "source_out_seconds": 22.75,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Busy intersection context before intervention",
+      "playback_strategy": "1.0x",
+      "direction": "Hard cut wider. Let traffic context read; keep wheelchair secondary until next beat.",
+      "caption_ids": [
+        "CAP_005",
+        "CAP_006"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_003",
+      "beat": "PROBLEM_REVEAL",
+      "output_start_seconds": 7.71,
+      "output_end_seconds": 9.56,
+      "output_frame_in": 231,
+      "output_frame_out_exclusive": 287,
+      "timecode_in": "00:00:07:21",
+      "timecode_out_exclusive": "00:00:09:17",
+      "source_id": "SRC_01",
+      "source_in_seconds": 21.0,
+      "source_out_seconds": 22.85,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Wheelchair user visibly struggling in crosswalk",
+      "playback_strategy": "1.0x",
+      "direction": "Reframe left; reveal the actual human problem cleanly.",
+      "caption_ids": [
+        "CAP_007",
+        "CAP_008"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_004",
+      "beat": "STAKES",
+      "output_start_seconds": 9.56,
+      "output_end_seconds": 12.63,
+      "output_frame_in": 287,
+      "output_frame_out_exclusive": 379,
+      "timecode_in": "00:00:09:17",
+      "timecode_out_exclusive": "00:00:12:19",
+      "source_id": "SRC_01",
+      "source_in_seconds": 19.5,
+      "source_out_seconds": 22.57,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Wide view sells multi-lane crossing distance",
+      "playback_strategy": "1.0x",
+      "direction": "Wider 3:4-safe crop; avoid excessive zoom so six-lane geography is legible.",
+      "caption_ids": [
+        "CAP_009",
+        "CAP_010"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_005",
+      "beat": "CHOICE_EXIT",
+      "output_start_seconds": 12.63,
+      "output_end_seconds": 14.56,
+      "output_frame_in": 379,
+      "output_frame_out_exclusive": 437,
+      "timecode_in": "00:00:12:19",
+      "timecode_out_exclusive": "00:00:14:17",
+      "source_id": "SRC_01",
+      "source_in_seconds": 23.2,
+      "source_out_seconds": 25.13,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Spider-Man exits red Jeep",
+      "playback_strategy": "1.0x",
+      "direction": "Cause before action. Tight enough to see the decision, not yet the payoff.",
+      "caption_ids": [
+        "CAP_011"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_006",
+      "beat": "RUN_TO_HELP",
+      "output_start_seconds": 14.56,
+      "output_end_seconds": 16.19,
+      "output_frame_in": 437,
+      "output_frame_out_exclusive": 486,
+      "timecode_in": "00:00:14:17",
+      "timecode_out_exclusive": "00:00:16:06",
+      "source_id": "SRC_01",
+      "source_in_seconds": 25.1,
+      "source_out_seconds": 26.73,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Spider-Man runs from Jeep toward wheelchair",
+      "playback_strategy": "1.0x",
+      "direction": "Motion-led crop/tracking; preserve relation to wheelchair.",
+      "caption_ids": [
+        "CAP_012"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_007",
+      "beat": "REACH_AND_PUSH",
+      "output_start_seconds": 16.19,
+      "output_end_seconds": 18.99,
+      "output_frame_in": 486,
+      "output_frame_out_exclusive": 570,
+      "timecode_in": "00:00:16:06",
+      "timecode_out_exclusive": "00:00:19:00",
+      "source_id": "SRC_01",
+      "source_in_seconds": 26.73,
+      "source_out_seconds": 29.53,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "First chair contact → pushing begins",
+      "playback_strategy": "1.0x",
+      "direction": "First contact lands near “reached the chair”; continue into push.",
+      "caption_ids": [
+        "CAP_013",
+        "CAP_014"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_008",
+      "beat": "CROSS_TO_SAFETY",
+      "output_start_seconds": 18.99,
+      "output_end_seconds": 22.1,
+      "output_frame_in": 570,
+      "output_frame_out_exclusive": 663,
+      "timecode_in": "00:00:19:00",
+      "timecode_out_exclusive": "00:00:22:03",
+      "source_id": "SRC_01",
+      "source_in_seconds": 28.09,
+      "source_out_seconds": 31.2,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Continuous push across final lanes to right edge",
+      "playback_strategy": "1.0x",
+      "direction": "Let action play without effects. The real motion is the payoff evidence.",
+      "caption_ids": [
+        "CAP_015",
+        "CAP_016",
+        "CAP_017"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_009",
+      "beat": "SAFE_PAYOFF",
+      "output_start_seconds": 22.1,
+      "output_end_seconds": 23.95,
+      "output_frame_in": 663,
+      "output_frame_out_exclusive": 718,
+      "timecode_in": "00:00:22:03",
+      "timecode_out_exclusive": "00:00:23:28",
+      "source_id": "SRC_01",
+      "source_in_seconds": 30.2,
+      "source_out_seconds": 32.05,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Wheelchair reaches/clears right side of frame",
+      "playback_strategy": "1.0x",
+      "direction": "Hold a fraction after they clear frame so “safe” has room to land.",
+      "caption_ids": [
+        "CAP_018"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_010",
+      "beat": "SECOND_CURIOSITY",
+      "output_start_seconds": 23.95,
+      "output_end_seconds": 25.6,
+      "output_frame_in": 718,
+      "output_frame_out_exclusive": 768,
+      "timecode_in": "00:00:23:28",
+      "timecode_out_exclusive": "00:00:25:18",
+      "source_id": "SRC_01",
+      "source_in_seconds": 36.8,
+      "source_out_seconds": 38.45,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Spider-Man runs back toward red Jeep",
+      "playback_strategy": "1.0x",
+      "direction": "Return-to-car visual resets curiosity: who is this person?",
+      "caption_ids": [
+        "CAP_019",
+        "CAP_020"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_011",
+      "beat": "MASK_HOLD",
+      "output_start_seconds": 25.6,
+      "output_end_seconds": 28.53,
+      "output_frame_in": 768,
+      "output_frame_out_exclusive": 856,
+      "timecode_in": "00:00:25:18",
+      "timecode_out_exclusive": "00:00:28:16",
+      "source_id": "SRC_01",
+      "source_in_seconds": 38.0,
+      "source_out_seconds": 40.93,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Masked helper reaches/re-enters Jeep",
+      "playback_strategy": "1.0x",
+      "direction": "Stay on costume/Jeep until narrator begins identity reveal.",
+      "caption_ids": [
+        "CAP_021",
+        "CAP_022"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_012",
+      "beat": "IDENTITY_REVEAL",
+      "output_start_seconds": 28.53,
+      "output_end_seconds": 32.2,
+      "output_frame_in": 856,
+      "output_frame_out_exclusive": 966,
+      "timecode_in": "00:00:28:16",
+      "timecode_out_exclusive": "00:00:32:06",
+      "source_id": "SRC_03",
+      "source_in_seconds": 39.5,
+      "source_out_seconds": 43.17,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Christopher Hellenthal on-camera with broadcast lower-third",
+      "playback_strategy": "1.0x",
+      "direction": "Reveal face only now. Use clean center crop; preserve ABC identifier if legible and not colliding with FROG captions. Linked ABC speech remains muted under narrator.",
+      "caption_ids": [
+        "CAP_023",
+        "CAP_024",
+        "CAP_025"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_013",
+      "beat": "AUTHENTIC_INTERVIEW_BITE",
+      "output_start_seconds": 32.2,
+      "output_end_seconds": 35.228,
+      "output_frame_in": 966,
+      "output_frame_out_exclusive": 1057,
+      "timecode_in": "00:00:32:06",
+      "timecode_out_exclusive": "00:00:35:07",
+      "source_id": "SRC_04",
+      "source_in_seconds": 56.849,
+      "source_out_seconds": 59.877,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Christopher direct soundbite: “I just told the man… Don’t worry, I got you.”",
+      "playback_strategy": "1.0x",
+      "direction": "Use the actual AP interview frame/audio at 1.0x, no J-cut reconstruction. DOCUMENTARY_LOWER_THIRD captions. Music ducks 6–8 dB. Do not add extra quote or paraphrase.",
+      "caption_ids": [
+        "CAP_026",
+        "CAP_027",
+        "CAP_028",
+        "CAP_029"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "MUTE picture-track linked audio because identical soundbite already exists inside FINAL_SPEECH_MASTER_V2; master is sole speech authority"
+    },
+    {
+      "shot_id": "SHOT_014",
+      "beat": "VULNERABILITY",
+      "output_start_seconds": 35.228,
+      "output_end_seconds": 37.928,
+      "output_frame_in": 1057,
+      "output_frame_out_exclusive": 1138,
+      "timecode_in": "00:00:35:07",
+      "timecode_out_exclusive": "00:00:37:28",
+      "source_id": "SRC_04",
+      "source_in_seconds": 60.0,
+      "source_out_seconds": 62.7,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Christopher casual interview continuation / human face",
+      "playback_strategy": "1.0x",
+      "direction": "Keep casual close-up but mute source speech; narrator explains his hesitation. No meme reaction treatment.",
+      "caption_ids": [
+        "CAP_030",
+        "CAP_031",
+        "CAP_032"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_015",
+      "beat": "HUMAN_CHOICE",
+      "output_start_seconds": 37.928,
+      "output_end_seconds": 39.958,
+      "output_frame_in": 1138,
+      "output_frame_out_exclusive": 1199,
+      "timecode_in": "00:00:37:28",
+      "timecode_out_exclusive": "00:00:39:29",
+      "source_id": "SRC_01",
+      "source_in_seconds": 26.73,
+      "source_out_seconds": 28.76,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "First contact and beginning of push",
+      "playback_strategy": "1.0x",
+      "direction": "Return to proof at “but he helped anyway.” Slight restrained punch-in allowed.",
+      "caption_ids": [
+        "CAP_033"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_016",
+      "beat": "ENDING_SETUP",
+      "output_start_seconds": 39.958,
+      "output_end_seconds": 42.658,
+      "output_frame_in": 1199,
+      "output_frame_out_exclusive": 1280,
+      "timecode_in": "00:00:39:29",
+      "timecode_out_exclusive": "00:00:42:20",
+      "source_id": "SRC_01",
+      "source_in_seconds": 27.0,
+      "source_out_seconds": 29.7,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Spider-Man suit clearly visible while helping",
+      "playback_strategy": "1.0x",
+      "direction": "Visual echoes “the costume was pretend” without editorializing.",
+      "caption_ids": [
+        "CAP_034",
+        "CAP_035"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_017",
+      "beat": "ENDING_CHOICE",
+      "output_start_seconds": 42.658,
+      "output_end_seconds": 43.988,
+      "output_frame_in": 1280,
+      "output_frame_out_exclusive": 1320,
+      "timecode_in": "00:00:42:20",
+      "timecode_out_exclusive": "00:00:44:00",
+      "source_id": "SRC_01",
+      "source_in_seconds": 29.7,
+      "source_out_seconds": 31.03,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Final push toward safety",
+      "playback_strategy": "1.0x",
+      "direction": "Land “THE CHOICE WASN’T” on real help, not on a talking head. No sting.",
+      "caption_ids": [
+        "CAP_036"
+      ],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    },
+    {
+      "shot_id": "SHOT_018",
+      "beat": "AFTERGLOW_LOOP",
+      "output_start_seconds": 43.988,
+      "output_end_seconds": 45.5,
+      "output_frame_in": 1320,
+      "output_frame_out_exclusive": 1365,
+      "timecode_in": "00:00:44:00",
+      "timecode_out_exclusive": "00:00:45:15",
+      "source_id": "SRC_01",
+      "source_in_seconds": 36.8,
+      "source_out_seconds": 38.312,
+      "source_trim_status": "LOCKED_FROM_RAW",
+      "visible_action_anchor": "Spider-Man returns toward Jeep",
+      "playback_strategy": "1.0x",
+      "direction": "No text. Let music breathe. End on return-to-Jeep motion so replay can cut naturally back to the opening Jeep/exit hook.",
+      "caption_ids": [],
+      "transition_in": "hard_cut",
+      "linked_source_audio_rule": "mute linked source audio unless explicitly noted"
+    }
+  ],
+  "caption_design": {
+    "caption_group_count": 36,
+    "fixed_anchor_rule": "Keep narrator captions visually centered at one fixed anchor in the image; do not chase speaker/subject around frame.",
+    "narrator_style": "FROG_PRIMARY / Montserrat / ALL CAPS / exact words.",
+    "interview_style": "DOCUMENTARY_LOWER_THIRD / exact words / restrained fade / speaker label CHRISTOPHER HELLENTHAL.",
+    "highlight_rule": "Only semantic highlight spans glow; never glow the entire sentence.",
+    "colors": {
+      "white": "#FFF8EC",
+      "gold": "#FFD84A",
+      "mint": "#43F1B5",
+      "cyan": "#4DE7FF",
+      "coral": "#FF6375",
+      "outline": "#11151B"
+    },
+    "sync_tolerance": "±1–2 frames at 30fps"
+  },
+  "hook_treatment": {
+    "range_seconds": [
+      0.0,
+      4.86
+    ],
+    "freeze": "~0.55s on first unmistakable Spider-Man exit frame",
+    "arrow": "One subtle glowing red arrow only during opening freeze; remove once motion resumes.",
+    "sfx": "No synthetic hit/whoosh. Music + narration carry hook.",
+    "spoiler_guard": "Tight crop keeps wheelchair/problem from being clearly readable until SHOT_003."
+  },
+  "audio_mix_design": {
+    "A1_speech_master": {
+      "file": "FINAL_SPEECH_MASTER_V2.wav",
+      "timeline_in_seconds": 0.0,
+      "gain_change_db": 0.0,
+      "processing": "none after V2 alignment"
+    },
+    "A2_source_audio": {
+      "SRC_01": "Do not use; measured effectively silent (-91 dBFS).",
+      "SRC_03": "Mute under narrator.",
+      "SRC_04_56.849_59.877": "Already embedded in speech master; mute linked clip audio to avoid doubling."
+    },
+    "A3_music": {
+      "file": "Wholesome Comfort (Warmer Bass).mp3",
+      "role": "emotional bed only",
+      "timing_rule": "Never move picture or speech to a music beat.",
+      "interview_duck_range_seconds": [
+        32.2,
+        35.228
+      ],
+      "duck_amount_db": "6–8",
+      "ending_rule": "Warm lift only; no dramatic sting on final line."
+    },
+    "mix_reference": {
+      "integrated_lufs_target": -14,
+      "true_peak_dbtp_max": -1
+    }
+  },
+  "visual_finish": {
+    "default_transition": "hard_cut",
+    "prohibited": [
+      "glitch",
+      "RGB split",
+      "whip template",
+      "flash on payoff",
+      "meme bounce"
+    ],
+    "grade": "Medium cinematic contrast; uncrushed blacks; soft highlights; neutral base; subtle warmth at payoff.",
+    "end_rule": "No black, CTA, end card or captions after 41.27s; preserve ~1.49s text-free trailing afterglow."
+  },
+  "qc_acceptance": {
+    "frame_coverage_contiguous": true,
+    "first_output_frame": 0,
+    "last_output_frame_exclusive": 1365,
+    "shot_count": 18,
+    "all_115_words_captioned": true,
+    "interview_exact_words_captioned": true,
+    "unmasked_face_first_visible_seconds": 28.53,
+    "locked_interview_range_seconds": [
+      32.2,
+      35.228
+    ],
+    "text_free_tail_seconds": 1.512,
+    "final_duration_under_59_seconds": true,
+    "source_hashes_registered": true,
+    "source_in_out_locked": true,
+    "JPD_audio_not_fabricated": true,
+    "no_black_end": true,
+    "no_CTA": true
+  }
+}

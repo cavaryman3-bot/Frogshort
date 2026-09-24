@@ -1,0 +1,153 @@
+{
+  "schema_version": "2.0",
+  "status": "RAW_PRESENT_AND_REGISTERED",
+  "registration_precision": "Primary event anchors verified by direct frame inspection at 0.2s sampling on 15fps JPD master; cut values below are execution values. Micro-trim allowance: ±1 source frame only for visual cut cleanliness; never alter output/audio timing.",
+  "sources": [
+    {
+      "source_id": "SRC_01",
+      "filename": "01_JPD_original_traffic_cam.mp4",
+      "role": "Primary municipal evidence / action chronology",
+      "sha256": "820a3382bdaf551d939466fd2554f65aec17acef1eea3daba41fc4fceb3f9925",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 720,
+            "height": 480,
+            "r_frame_rate": "15/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "46.579229"
+        }
+      },
+      "source_in_out_locked": true
+    },
+    {
+      "source_id": "SRC_02",
+      "filename": "02_JPD_TMX_backup_27s.mp4",
+      "role": "HD redistribution backup only; use only if primary crop is materially unusable",
+      "sha256": "d9a651dbcb9888e1f1a4c58b69cfce1dd40d9e71400d9daf7ab58c480a7bc9bf",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "30000/1001"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "27.754667"
+        }
+      },
+      "source_in_out_locked": false
+    },
+    {
+      "source_id": "SRC_03",
+      "filename": "03_ABC_Christopher_followup.mp4",
+      "role": "Identity reveal / broadcast interview visual",
+      "sha256": "72ffcdf643ce6508f79168affefbb961d67e41d3cd15a7904f194458dbf03954",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "30000/1001"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "83.149000"
+        }
+      },
+      "source_in_out_locked": true
+    },
+    {
+      "source_id": "SRC_04",
+      "filename": "04_Bonus_Christopher_raw_interview.mp4",
+      "role": "Authentic Christopher direct soundbite / casual face visual",
+      "sha256": "0b3a4b69602b49d4179a67da54657a8634e341cb5aebec1ea36fc588d4445efb",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 640,
+            "height": 360,
+            "r_frame_rate": "25/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "160.455000"
+        }
+      },
+      "source_in_out_locked": true
+    }
+  ],
+  "event_anchors_SRC_01": {
+    "wheelchair_struggling_visible": [
+      19.5,
+      23.0
+    ],
+    "jeep_door_open_exit_starts": 23.2,
+    "spiderman_clear_of_jeep": 24.9,
+    "run_toward_wheelchair": 25.1,
+    "first_contact_with_chair": 26.73,
+    "push_begins": 27.0,
+    "push_reaches_right_edge": 30.8,
+    "wheelchair_and_helper_clear_frame_right": 31.2,
+    "spiderman_returns_into_frame": 36.8,
+    "reaches_jeep": 38.4,
+    "reenters_jeep": 40.8,
+    "audio_note": "Embedded JPD audio measures approximately -91 dBFS mean/max (effectively digital silence); do not invent traffic-camera dialogue or ambience."
+  },
+  "locked_interview_bite": {
+    "source_id": "SRC_04",
+    "source_in": 56.849,
+    "source_out": 59.877,
+    "timeline_in": 32.2,
+    "timeline_out": 35.228,
+    "quote": "I just told the man, I said, “Don’t worry, I got you.”",
+    "audio_in_master": true
+  }
+}
