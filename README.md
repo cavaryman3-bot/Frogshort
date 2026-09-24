@@ -19,7 +19,7 @@ node scripts/frog.mjs final --project spiderman
 
 ### What can be automated today
 
-After a story's facts, source clips, edit plan, approved script and final voice file are supplied and locked, the terminal can validate source/audio hashes, align captions locally, render, and run QC. The output is deterministic for the same inputs. RAW, VO, music and rendered videos are deliberately excluded from Git; a clone alone cannot reproduce the Spider-Man render without those assets.
+After a story's facts, source clips, edit plan, approved script and final voice file are supplied and locked, the terminal can validate source/audio hashes, align captions locally, render, and run QC. The output is deterministic for the same inputs. RAW, VO, music and rendered videos are deliberately excluded from Git. The renderer needs access to these files **during that run**; it does not require permanent storage. A fresh clone cannot reproduce an old video unless the owner has chosen to retain its inputs elsewhere.
 
 Story research and source verification, choosing a safe hook, sourcing usable RAW, approving the script, and producing the ElevenLabs voice in the current no-API setup are **not** automated by this repository. A story title or URL alone is insufficient to generate a trustworthy finished clip. Automated arrow placement and factual/visual review also need a case-specific check. The sensible next increment is one new story through this terminal entry point with a source manifest and final VO, then automate only the repeated preparation steps observed in that run. Grill Me is useful when choosing policy, sourcing and approval boundaries for that increment; it is not needed to lock this caption rule.
 
@@ -99,6 +99,8 @@ Only the review preview has been rerendered with V3 timing. The older final outp
 
 ## Repository policy
 
-Git tracks the renderer, project configuration, locked JSON, fonts, and documentation. RAW, voice, music, temporary files, and rendered outputs are ignored. Keep media outside Git and place it in `projects/<case>/assets/` using the filenames declared by `project.json`.
+Git tracks the renderer, project configuration, locked JSON, fonts, and documentation: the reusable workflow, rules and edit decisions. RAW, voice, music, temporary files and rendered outputs are ignored.
+
+For each production run, stage only the files needed to render in `projects/<case>/assets/` using the filenames in `project.json`. A source registry may record filenames, origins, timing decisions and hashes; it is not a RAW archive. After delivery, the owner chooses whether to keep or discard RAW, VO and MP4. The workflow must not silently archive or delete them. Keeping old inputs is necessary only if the owner wants to reproduce that exact old render later.
 
 This V1 deliberately excludes automatic story research, AI B-roll, complex transitions, upload automation, and per-render creative decisions.
