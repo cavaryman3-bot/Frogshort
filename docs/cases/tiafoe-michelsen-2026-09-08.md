@@ -44,7 +44,15 @@ The first two lines create the question; the embrace is withheld until the turn.
 | 7–8, turn | Uninterrupted segment of Tiafoe going to the net and embracing Michelsen | Leave the reveal readable; avoid zoom/arrow covering faces. |
 | 9–10, close | Remain on the embrace, then a reaction/exit if present | Natural crowd audio can sit under VO; no invented dialogue. |
 
-Candidate primary RAW lead: [US Open extended highlights](https://www.usopen.org/en_US/video/watch/2026/tiafoe-vs-michelsen-extended-highlights-2026-quarterfinal/17889952347895859). [ESPN's posted hug video](https://www.facebook.com/ESPN/videos/this-moment-between-frances-tiafoe-and-alex-michelson-after-an-epic-5-set-match-/1218547513804226/) is a second lead. Their frame contents, completeness, downloadability, and reuse terms **have not been verified** in the current environment. These links are pointers, not locked source files or permission to republish broadcast footage.
+Candidate RAW leads, in order of the story's actual moments:
+
+| Source | Page description confirms | Still needs direct frame check |
+| --- | --- | --- |
+| [US Open's own short video post](https://www.facebook.com/usopentennis/videos/what-a-match-what-a-moment/2278127329607113/) | Tiafoe and Michelsen's emotional hug after the match | How many seconds of approach and embrace are visible; usable file access |
+| [Sportsnet's 1:06 video](https://www.sportsnet.ca/tennis/video/tiafoe-michelsen-share-emotional-embrace-after-five-set-us-open-battle/) | The two players embrace after the five-set match | Whether the finish and uninterrupted hug are present; usable file access |
+| [US Open extended highlights](https://www.usopen.org/en_US/video/watch/2026/tiafoe-vs-michelsen-extended-highlights-2026-quarterfinal/17889952347895859) | The quarterfinal match | Whether the 5–4 third-set serve, match point, and hug occur in this version |
+
+Page descriptions are not frame verification. This workspace could not obtain a video file from these sites; do not assign timecodes, register source hashes, or claim the payoff is covered until actual media is inspected. External footage reuse terms also need checking before publishing.
 
 ## Next production gates
 
